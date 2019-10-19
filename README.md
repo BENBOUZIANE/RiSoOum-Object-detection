@@ -31,32 +31,6 @@ Now you can run the model using `detect.py` script. Don't forget to set the IoU 
 ```
 python detect.py <images/video> <iou threshold> <confidence threshold> <filenames>
 ```
-### Images example
-Let's run an example using sample images.
-```
-python detect.py images 0.5 0.5 data/images/dog.jpg data/images/office.jpg
-```
-Then you can find the detections in the `detections` folder.
-<br>
-You should see something like this.
-```
-detection_1.jpg
-```
-![alt text](https://github.com/heartkilla/yolo-v3/blob/master/data/detection_examples/detection_1.jpg)
-```
-detection_2.jpg
-```
-![alt text](https://github.com/heartkilla/yolo-v3/blob/master/data/detection_examples/detection_2.jpg)
-### Video example
-You can also run the script with video files.
-```
-python detect.py video 0.5 0.5 data/video/shinjuku.mp4
-```
-The detections will be saved as `detections.mp4` file.
-![alt text](https://github.com/heartkilla/yolo-v3/blob/master/data/detection_examples/detections.gif)
-
-## To-Do List
-* Model training
 
 ## Acknowledgments
 * [Yolo v3 official paper](https://arxiv.org/abs/1804.02767)
